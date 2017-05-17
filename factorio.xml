@@ -33,17 +33,17 @@
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/factorio/config</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/factorio/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/cache/appdata/factorio/saves</HostDir>
-      <ContainerDir>/saves</ContainerDir>
+      <ContainerDir>/factorio/saves</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/cache/appdata/factorio/mods</HostDir>
-      <ContainerDir>/mods</ContainerDir>
+      <ContainerDir>/factorio/mods</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
