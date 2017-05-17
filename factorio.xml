@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+<Category>GameServers: Factorio</Category>
+  <Name>mrbillington-factorio</Name>
+  <Description>
+  </Description>
+  <Overview>
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/mrbillington/factorio/</Registry>
+  <GitHub>https://github.com/mrbillington/factorio</GitHub>
+  <Repository>mrbillington/factorio</Repository>
+  <Project>https://factorio.com</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>34197</HostPort>
+        <ContainerPort>34197</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>VERSION</Name>
+      <Value>0.15.11</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/factorio</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <ExtraParams></ExtraParams>
+</Containers>
