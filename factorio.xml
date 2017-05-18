@@ -32,18 +32,8 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/factorio/config</HostDir>
-      <ContainerDir>/factorio/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/factorio/saves</HostDir>
-      <ContainerDir>/factorio/saves</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/factorio/mods</HostDir>
-      <ContainerDir>/factorio/mods</ContainerDir>
+      <HostDir>/mnt/cache/appdata/factorio/</HostDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
